@@ -1,0 +1,160 @@
+<html>
+<title>
+apple.com/buy</title>
+<style>
+body
+{
+ background-color:black;
+}
+
+h1
+{
+  color:white;
+}
+
+h2
+{
+   color:white;
+}
+button
+{
+  background-color:black;
+  color:white;
+  font:30px bold;
+  border-color:black;
+}
+table
+{
+   padding:4px;
+   border-spacing:1px;
+}
+</style>
+<head>
+<script>
+<!--
+
+function rk()
+       {
+   if( document.myfrm.Fn.value=="" || !isNaN( document.myfrm.Fn.value))
+ {
+             alert("Enter Proper First Name Please");
+            
+ } 
+  
+      if( document.myfrm.Ln.value=="" || !isNaN( document.myfrm.Ln.value))
+ {
+             alert("Enter Proper Last Name Please");
+            
+ } 
+
+    if( document.myfrm.Un.value =="")
+ {
+             alert("Enter User Name Please");
+            
+ } 
+
+    if( document.myfrm.Mn.value =="" || !isNaN( document.myfrm.Mn.value))
+ {
+             alert("Enter Middle Name Please");
+            
+ } 
+
+    if( document.myfrm.st.value =="")
+ {
+             alert("Enter State Please");
+            
+ } 
+
+    if( document.myfrm.ct.value =="")
+ {
+             alert("Enter City Please");
+            
+ } 
+
+    if( document.myfrm.a1.value =="")
+ {
+             alert("Enter Address1 Please");
+            
+ } 
+    if( document.myfrm.a2.value =="")
+ {
+             alert("Enter Address2 Please");
+            
+ } 
+  
+      if( document.myfrm.cd.value =="" || document.myfrm.cd.value.length !=8)
+ {
+             alert("Enter 8 Digit's Postcode Please");
+            
+ } 
+
+      if( document.myfrm.cn.value =="" || document.myfrm.cn.value.length !=10)
+ {
+             alert("Enter 10 Digit's Phone Number Please");
+            
+ } 
+
+else
+{
+  window.location="ordermsg.html";
+}
+       }
+//-->
+</script>
+<body>
+<form name="myfrm">
+<h1>Apple iphone 7 Plus(128 gb,Rose Gold)</h1>
+<h2>Amount: 71999,00 RS.</h2>
+<br>
+<img src="imgofseven.jpg" height="700" width="900">
+<br><br>
+<h1>Please Fill All The Details To Buy A Product.....</h1>
+
+<center>
+<h2>
+First Name:-<input type="text" name="Fn" ><br>
+<br>
+Middle Name:-<input type="text"  name="Mn" ><br>
+<br>
+Last Name:-<input type="text"  name="Ln" ><br>
+<br>
+Username:-<input type="text" name="Un" ><br>
+<br>
+Gender:-<br><input type="radio" name="aa" >Male<br>
+<input type="radio" name="aa" >Female<br>
+<br>
+State:-<input type="text" name="st"><br><br>
+City:-<input type="text" name="ct"><br>
+<br>
+
+Address 1:-<input type="text" id="a1"><br><br>
+Address 2:-<input type="text" id="a2"><br><br>
+
+
+Postal Code:-<input type="text" name="cd"><br><br>
+Contact No:-<input type="text" id="cn"><br><br>
+<br>
+
+
+<table  bgcolor="grey" border="1">
+<tr>
+<form>
+
+<button type="button" onclick="rk();">Place Order</button>
+&nbsp &nbsp; <button type="Cancel">Cancel</button>
+<br>
+<br>
+</form>
+<br>
+<tr>
+<th width="1340">
+<h3>
+More Ways To Shop:Visit an Apple Store,<br>
+Copyright @ 2017 Apple Inc.All rights reserved.<br>
+Privacy | Policy | Terms Of Use |<br>
+Sales And Refunds | Legal | Site Map</h3>
+</th>
+</tr>
+</table>
+</body>
+</html>
